@@ -9,7 +9,7 @@
     // Start the client with the specified prefix
     "client": "npm start --prefix client",
     // Run both server and client concurrently in development mode
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "dependencies": {
     // Express framework for building web applications
