@@ -4,14 +4,14 @@
   "description": "Eine Webanwendung zur Verwaltung und Organisation von Büchern in einer persönlichen Bibliothek.",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",  // Start the server
-    "client": "npm start --prefix client",  // Start the client with the specified prefix
-    "dev": "concurrently \"npm run start\" \"npm run client\""  // Run both server and client concurrently in development mode
+    "start": "node src/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "dependencies": {
-    "express": "^4.17.1",  // Express framework for building web applications
-    "cors": "^2.8.5",  // CORS middleware for enabling Cross-Origin Resource Sharing
-    "mongoose": "^5.10.9"  // Mongoose for MongoDB object modeling
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "mongoose": "^5.10.9"
   },
   "devDependencies": {},
   "author": "Dein Name",
